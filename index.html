@@ -16,6 +16,8 @@
       }
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
 
+      .img-scale-25 img { width: 25% }
+
       .img-max-width-40 img {
         max-width: 40%;
       }
@@ -32,6 +34,12 @@
         max-width: 100%;
       }
 
+      .column:first-of-type {float:left}
+      .column:last-of-type {float:right}
+
+      .split-50 .column:first-of-type {width: 50%}
+      .split-50 .column:last-of-type {width: 50%}
+
     </style>
   </head>
   <body>
@@ -39,7 +47,7 @@
 
 class: center, middle
 
-# Migrating an Office to Work-From-Home
+# Migrating an office to 100% Work-From-Home
 
 Mikael Kalms
 
@@ -48,6 +56,167 @@ CTO, Fall Damage
 mikael@kalms.org
 
 ---
+
+# About our team
+
+- 20 people in one room
+- Nearly everyone on a single project
+- Project already in progress
+- Strong team cohesion
+- Experienced leaders in many areas
+
+---
+
+# This is not traditional work-from-home
+
+We took an existing, functional team, and moved it to a 100% distributed development model.
+
+It is not "everyone works from home on Wednesdays".
+
+It is not "a few people work remotely".
+
+It is not "a couple of studios collaborating".
+
+It is "everyone is physically isolated from each other", due to external factors, with a pandemic approaching outside.
+
+
+---
+
+# Our strategy
+
+Keep doing what we already are doing
+
+Change how we do it, if necessary
+
+Make sure people are informed during the transition
+
+---
+
+class: split-50
+
+# Communication tools
+
+.column[
+Slack: text chat
+
+Discord: voice chat, screen sharing, "our virtual office"
+
+Zoom: video chat
+]
+
+.column[
+.right[.img-scale-25[![Right-aligned image](discord-voice-channels.png)]]
+]
+
+---
+
+class: split-50
+
+# Processes
+
+.column[
+Monthly large-scale planning
+	- Group discussion, prioritization
+	- produce documentation
+
+Weekly sprints
+	- people do sprint planning individually
+	  off-line
+	- sprint closing & sprint opening 
+
+Daily standup
+	- Information sharing
+]
+
+.column[
+
+	Group voice chat on Discord
+	Screenshare while editing document
+	Multi-editing in Google Docs
+
+	Group voice chat on Discord
+	Screenshare while editing document
+	Multi-editing in Google Docs
+
+	Group voice chat on Discord
+	Screenshare while editing document
+	Multi-editing in Google Docs
+
+	Group voice chat on Discord
+	Screenshare while editing document
+	Multi-editing in Google Docs
+]
+
+
+---
+
+class: split-50
+
+# Processes
+
+.column[
+Playtests 3-5 times a week
+	- ad-hoc
+
+Weekly releases
+	- Release = publish build outside dev team
+]
+
+.column[
+	todo
+	todo
+	
+	todo
+]
+
+
+---
+
+class: split-50
+
+# People activities
+
+.column[
+Fika (aka Koffie met gebak) once a week
+
+1:1 with manager every two weeks
+
+occasional game night
+
+occasional drinks after-work
+]
+
+.column[
+Zoom session with webcam
+
+Discord chat. Super important to keep going!
+
+Discord + Steam
+
+Not happening any more :(
+]
+
+---
+
+# Technology
+
+- One workstation per person
+
+- One build machine in the office
+
+- Lots of cloud based tools:
+	File sharing - Google Drive
+	planning & documentation - Jira, Confluence
+	communication - Slack, Discord
+	build distribution - Google Cloud Storage, Steam
+
+---
+
+# VPN is necessary for work-from-home
+
+- Access build machine from home
+- Access other companies' internal networks
+- Access our Houdini license server
 
 ---
 
